@@ -1,0 +1,30 @@
+{
+  "name": "three-js-light-helper",
+  "version": "1.0.0",
+  "description": "Functions for enabeling the Light-Helper in ThreeJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "deploy": "npm publish"
+  },
+  "keywords": [
+    "ThreeJS",
+    "LightHelper",
+    "HemisphereLightHelper",
+    "DirectionalLightHelper",
+    "PointLightHelper",
+    "SpotLightHelper",
+    "reactAreaLightHelper"
+  ],
+  "author": "@motcodes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motcodes/three-js-light-helper.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@motcodes"
+  },
+  "dependencies": {
+    "three": "^0.126.0"
+  }
+}
